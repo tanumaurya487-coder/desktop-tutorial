@@ -1,5 +1,15 @@
-# Welcome to GitHub Desktop!
+# DaySavvy - Task Scheduler
 
-This is your README. READMEs are where you can communicate what your project is and how to use it.
+This is a Python script that creates an optimized daily timeline based on task priority.
 
-Write your name on line 6, save it, and then head back to GitHub Desktop.
+## Features
+- Input: Task name, duration, priority (1-5)
+- Optimization: High priority tasks first
+- Validation: Checks for empty name, wrong duration, overlap
+- Uses only native Python (list, dict, datetime)
+
+## How to Run
+python scheduler.py
+
+## Author
+Tanu Maurya
